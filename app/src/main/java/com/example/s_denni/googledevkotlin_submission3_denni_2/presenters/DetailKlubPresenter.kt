@@ -21,9 +21,8 @@ class DetailKlubPresenter(
     fun nimmKlubDetail(id_schedule: String?){
         view.showLoading()
 
-        Log.d("TRACE", "Klub DETAIL SOMETHING "+ id_schedule)
-
         GlobalScope.launch (context.main) {
+
             val dataSchedule = gson.fromJson(apiRepository
                 .machenRequest(TheSportDBApi.nimmMatch(id_schedule)).await(),
                 ListOfMyLaga::class.java

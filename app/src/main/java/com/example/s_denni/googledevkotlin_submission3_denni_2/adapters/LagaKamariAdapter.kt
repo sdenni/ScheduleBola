@@ -58,7 +58,6 @@ class KamariViewHolder(view: View) : RecyclerView.ViewHolder(view){
 //        LastMatchAdapter.informasiLaga = informasiLagaClass
 
         itemView.setOnClickListener {
-            Log.d("TRACE", "setOnClickListener SOMETHING "+ laga.goalDetailC)
             listener(laga)
         }
     }

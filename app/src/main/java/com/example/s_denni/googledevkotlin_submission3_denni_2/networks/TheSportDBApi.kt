@@ -38,7 +38,7 @@ class TheSportDBApi {
                 .appendPath("v1")
                 .appendPath("json")
                 .appendPath(BuildConfig.TSDB_API_KEY)
-                .appendPath("search_all_teams.php")
+                .appendPath("lookupevent.php")
                 .appendQueryParameter("id", id_schedule)
                 .build()
                 .toString()
