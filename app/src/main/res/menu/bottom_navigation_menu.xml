@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/kamari"
+        android:enabled="true"
+        android:title="@string/last"
+        android:icon="@drawable/ic_teams"
+        app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/enjing"
+            android:enabled="true"
+            android:icon="@drawable/ic_favorites"
+            android:title="@string/next"
+            app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/kareseps"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorites"
+        android:title="@string/karesep"
+        app:showAsAction="ifRoom" />
+</menu>

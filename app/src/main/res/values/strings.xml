@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jadwal Laga Bola</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="karesep">Karesep</string>
+    <string name="next">Laga Enjing</string>
+    <string name="last">Laga Kamari</string>
+    <string name="favorites">favorite</string>
+</resources>
